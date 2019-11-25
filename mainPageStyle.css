@@ -71,19 +71,4 @@ body {
 
 
 
-  @media only screen and (max-width: 600px) {
-    .wrapper h1{
-        position:absolute;
-        right:1%;
-        top:50%;
-        background-image: url(https://i.gifer.com/7HHU.gif);
-        background-size: cover;
-        color: transparent;
-        -moz-background-clip: text;
-        -webkit-background-clip: text;
-        text-transform: uppercase;
-        line-height: 1.2;
-        font-size:38px;
-        margin: 10px 0;
-    }
-  }
+
