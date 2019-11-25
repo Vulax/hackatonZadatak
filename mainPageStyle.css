@@ -62,11 +62,11 @@ body {
     margin: 10px 0;
 }
 
-/* @media only screen and (max-width: 1530px) {
-    .wrapper {
+@media only screen and (max-width: 1530px) {
+    .wrapper h1 {
       display: none;
     }
-  } */
+  }
 
 
 
