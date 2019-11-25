@@ -1,0 +1,89 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+*{
+    font-family: "Montserrat";
+}
+
+body {
+    margin: 0;
+    background-color: #1A1A1D;
+    padding:0;
+    height: 100%;
+  }
+
+.mainimage{
+    width:100%;
+    max-width:900px;
+    height:100%;
+    margin:0 auto;
+    z-index:2;
+   
+}
+
+.MainImageContainer{
+   padding: 10px;
+   padding-left:50px;
+   padding-right:50px;
+   padding-top:1%;
+   height:auto;
+   overflow: hidden;
+   display:block;
+   margin: 0 auto; 
+    z-index:1;
+
+}
+
+.bg-image{
+    background-image: url("mainImage.jpg");
+    width:100%;
+    height:auto;
+    filter: blur(9px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position:absolute;
+    top:0%;
+    z-index:-10;
+    
+}
+
+.wrapper h1{
+    position:absolute;
+    right:1%;
+    top:20%;
+    background-image: url(https://i.gifer.com/7HHU.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size:38px;
+    margin: 10px 0;
+}
+
+/* @media only screen and (max-width: 1530px) {
+    .wrapper {
+      display: none;
+    }
+  } */
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .wrapper h1{
+        position:absolute;
+        right:1%;
+        top:50%;
+        background-image: url(https://i.gifer.com/7HHU.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        line-height: 1.2;
+        font-size:38px;
+        margin: 10px 0;
+    }
+  }

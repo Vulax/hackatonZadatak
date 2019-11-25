@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="aboutUs.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="searchbar.css">
+        <link rel="stylesheet" href="buttons.css">
+        <link rel="stylesheet" href="mainPageStyle.css">
+    </head>
+    <body style="background-color:whitesmoke">
+            <header class="header">
+                 
+                    <a href="index.html" class="logo"><b>za</b>Kulturu.</a>
+                    <form action="./search.php" method="get">
+                        <div style="margin-bottom:0px;" class="afterlogo">
+                            <div>
+                                <input type="text" placeholder="     Pretrazi dogadjaje . . ." name="q" required/>
+                                <input type="submit" value="go"  hidden >
+                                </form>
+                            </div>
+                        </form>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul class="menu">
+                        <li><a href="oNama.html"><b>O nama</b></a></li>
+                         <li><a href="finalEventList.php"><b>Lista događaja</b></a></li>
+                         <li><a href="kreiraj.php"><b>Napravi događaj</b></a></li>
+                    </ul>
+                </header>
+
+            <div class="wrapperAb">
+                    <section id="home" class="sec-main">
+                      <h1 class="main-heading">Pokaži ljudima kakav si!</h1>
+                    </section>
+                  
+                    <section id="about" class="sec-about">
+                      <div class="containerA">
+                        <h1 onclick="chBackcolor('white'), changeColor('blue')">About</h1>
+                      </div>
+                        <hr />
+                  
+                        <div class="row">
+                          <div class="col-sm-6 col-sm-offset-3">
+                                <h2><b> za</b>Kulturu. </h2>
+                                <p class="oSajtu"><b>za</b>Kulturu je vebsajt koji omogućava mladima da pronalaze i organizuju najbolje dogadjaje u gradu.
+                                Uz <b>za</b>Kulturu je neverovatno lako pronaći sve dogadjaje, od filmskog maratona do koncerta tvog najomiljnijeg izvodjača.
+                                <b>za</b>Kulturu ti daje i mogućnost da kreiraš sopstvene eventove i da pozoveš svoje prijatelje da ti se pridruže.
+                                <b>za</b>Kulturu je kreiran od strane tri diplomirana IT stručnjaka u periodu od par godina.
+                                <b>za</b>Kulturu je najbrži i najlakši način da isplaniraš svoj izlazak!</p>
+                          </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Menjanje boje u skroz belo klikom!
+                -->
+                <script type="text/javascript">
+                    function chBackcolor(color) {
+                      document.body.style.background = color;
+                  };
+                  function changeColor(color) {
+                      document.querySelectorAll('.forma').forEach(function(ele) {
+                          ele.style.color = color;
+                      });
+                  }
+                     </script>
+    </body>
+</html>
